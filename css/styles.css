@@ -1,0 +1,27 @@
+body {
+  background-color: white;
+  padding: 0%;
+  margin: 0%;
+}
+header {
+  background-color: teal;
+}
+
+header .title {
+  margin-top: 0%;
+  margin-left: 220px;
+  margin-right: 220px;
+  width: 980px;
+}
+
+.title {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+}
+.links {
+  background-color: darkgrey;
+}
+
+footer {
+  background-color: rgb(72, 71, 71);
+}
