@@ -14,6 +14,10 @@ header .title {
   width: 980px;
 }
 
+header .links .about {
+  margin-left: 220px;
+}
+
 .title {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: white;
@@ -22,6 +26,39 @@ header .title {
   background-color: darkgrey;
 }
 
+main {
+  margin-left: 220px;
+  width: 700px;
+  float: left;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+aside {
+  margin-left: 80px;
+  width: 233px;
+  float: left;
+  margin-right: 280px;
+}
+
+figure {
+  margin: 0%;
+}
+
+.titles {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: black;
+}
+
 footer {
   background-color: rgb(72, 71, 71);
+  float: left;
+  width: 100%;
+}
+
+footer img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
