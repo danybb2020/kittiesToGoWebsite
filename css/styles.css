@@ -14,7 +14,7 @@ header .title {
   width: 980px;
 }
 
-header .links .about {
+header .links-main h4 {
   margin-left: 220px;
 }
 
@@ -22,17 +22,22 @@ header .links .about {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: white;
 }
-.links {
+
+main .w3-container section h4 .titles {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: teal;
+}
+
+.links-main {
   background-color: darkgrey;
 }
 
+div .w3-container {
+}
 main {
   margin-left: 220px;
   width: 700px;
   float: left;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 aside {
@@ -51,10 +56,25 @@ figure {
   color: black;
 }
 
+.titles-cat {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: teal;
+  font-size: larger;
+}
+
+.quote {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: teal;
+}
+
 footer {
   background-color: rgb(72, 71, 71);
   float: left;
   width: 100%;
+}
+
+footer .footer-text {
+  text-align: center;
 }
 
 footer img {
